@@ -126,4 +126,4 @@ Everything is serverless, so an idle deployment costs very little. Use a billing
 MIT. See [LICENSE](LICENSE).
 
 ## Author
-**JISMI JOY** · [LinkedIn](linkedin.com/in/jismijoy12/) · [GitHub](https://github.com/jismi12)
+**JISMI JOY** · [LinkedIn](linkedin.com/in/jismijoy/) · [GitHub](https://github.com/jismi12)
