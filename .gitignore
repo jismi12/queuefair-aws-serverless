@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+*.pem
+*.key
+token.txt
+*.token
+.DS_Store
+Thumbs.db
+node_modules/
