@@ -1,0 +1,20 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["dynamodb:PutItem", "dynamodb:GetItem"],
+      "Resource": "PASTE_TABLE_ARN"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "dynamodb:Query",
+      "Resource": "PASTE_TABLE_ARN/index/owner-index"
+    },
+    {
+      "Effect": "Allow",
+      "Action": ["sqs:SendMessage", "sqs:GetQueueAttributes"],
+      "Resource": "PASTE_QUEUE_ARN"
+    }
+  ]
+}
